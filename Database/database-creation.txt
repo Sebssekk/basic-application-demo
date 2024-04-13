@@ -8,3 +8,8 @@ CREATE TABLE employees (
   position VARCHAR(255) NOT NULL,
   salary DECIMAL(10, 2) NOT NULL
 );
+
+INSERT INTO employees (name, position, salary) VALUES
+('John Doe', 'Software Engineer', 75000.00),
+('Jane Smith', 'Project Manager', 85000.00),
+('Michael Johnson', 'Data Analyst', 65000.00);
